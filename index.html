@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snores Store</title>
+    <link  href="styles.css" rel="stylesheet" type="text/css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <h1 id="title">Snores Store</h1>
+        <p id="description">
+                A Clothing Co.
+            <br>
+            ESSENTIALS | CUSTOMIZABLE | STYLE
+            <br>
+             : Since 2021:
+        </p>
+    </header>
+
+    <form id="survey-form" action="">
+
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+            <label id="name-label"> <h3>Enter Your Name</h3> <input type="text" id="name" required maxlength="40" placeholder="John Doe"> </label>
+
+            <label id="email-label"> <h3>Enter Your Email</h3> <input type="email" id="email" required placeholder="abcxyz@gmail.com" /> 
+            </label>   
+
+            <article class="also-inline">
+            <label id="age"> <h3>Enter Your Age : </h3> 
+                <input class="inline" type="number" id="age" required min="8" max="40" placeholder=" 8 - 40 "/> 
+            </label>
+
+            <label id="sex"><h3>Sex :</h3> 
+                <input class="inline" type="radio" id="sex" name="gender" />Male <input class="inline" type="radio" id="sex" name="gender" />Female </label>
+            </article>            
+            
+            <label id="number-label"> <h3>Enter Your Number:</h3> <input type="number"  id="number"  min=9000000000 max=9999999999 placeholder="9801234567" /> </label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Preferences</legend>
+
+           <h3> What is Your go-to Cloth Type ? </h3><br>
+
+            <select id="dropdown">
+                <option>Select One</option> 
+                <option>Cotton</option>
+                <option>Terry</option>
+                <option>Silk</option>
+                <option>Lycra</option>
+                <option>Polyester</option>
+            </select>
+
+          
+
+            <label><h3>What Colour Do You Like To Wear The Most ?</h3></label>
+
+            <input type="checkbox" name="Black" id="blk" value="blk" class="inline"/>Black
+            <input type="checkbox" name="White" id="wht" value="wht" class="inline"/>White
+            <input type="checkbox" name="Olive-Green" id="olgr" value="olgr"class="inline"/>Olive-Green
+            <input type="checkbox" name="Off-White" id="ofwht" value="ofwht" class="inline"/>Off-White
+            <input type="checkbox" name="Blue" id="blu" value="blu" class="inline"/>Blue
+            <input type="checkbox" name="Maroon" id="mrn" value="mrn" class="inline"/>Maroon 
+
+          
+
+            <label><h3>What Would You Prefer Purchasing ?</h3></label>
+
+            <input type="radio" name="Prefer" id="rmd" value="rmd" class="inline"/>Ready-Made
+            <input type="radio" name="Prefer" id="cstm" value="cstm" class="inline"/>Custom-Order
+
+           
+            <label>
+                <h3>What Desgins Do You Like The Most ?</h3>
+            </label>
+
+            <input type="checkbox" name="asthetic" value="asth" id="asth" class= "inline" />Aesthetic Minimalistic
+            <input type="checkbox" name="asthetic" value="asth" id="asth" class="inline" />Bootleg
+            <input type="checkbox" name="asthetic" value="asth" id="asth" class="inline"/>Vintage
+            <input type="checkbox" name="asthetic" value="asth" id="asth" class="inline"/>Aesthetic Colourful
+            <input type="checkbox" name="asthetic" value="asth" id="asth" class="inline"/>Meme     
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <h3>How Did You Know About Us ?</h3>
+            <textarea style="resize: none;" rows="5" cols="88" ></textarea>
+        </fieldset>
+
+        <input type="submit" name="Submit" value="SUBMIT" id="submit" />
+
+    </form>
+
+    
+    <figure>
+        <img src="Icons/facebook.png" width="43px" height="43px"/>
+        <a href="https://www.instagram.com/snores.store/" target="_blank"><img src="Icons/instagram.png" width="43px" height="43px"/></a>
+        <img src="Icons/twitter.png" width="43px" height="43px" />
+        <img src="Icons/etsy.png" width="43px" height="43px" name="thrd" />
+    </figure>
+
+    <footer>
+    <aside>
+        <img src="Icons/thankyou.png" />
+    </aside>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,112 @@
+html{
+    display: flex;
+    max-width: 700px;
+    min-width: 350px;
+    margin: auto;
+    
+
+}
+
+body{
+    width: auto;
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-size: large;
+    background-color: #e9eef2;
+
+}
+
+h3{
+    font-weight: lighter;
+}
+
+.header{
+    text-align: center;
+    margin: auto;
+    max-width: 700 px;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 700px;
+    margin: 20px auto;
+    padding: 5px;
+    border: 7px groove #78a6c8;
+    
+}
+
+input{
+    width: 99%;
+    height: 2rem;
+    margin: 0.5em 0;
+}
+
+fieldset{
+    border: 2px solid #e08d86  ;
+    margin: 7px auto;
+
+}
+
+select{
+    width: 75%;
+    margin: 0.5em  auto;
+    display: block;
+    height: 2rem;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em  0;
+    vertical-align: middle;
+
+}
+
+.inline[name="gender"]{
+    margin: auto; ;
+}
+
+.also-inline{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5px 25px ;
+
+}
+
+.also-inline input{
+    width: 100px;
+    margin-right: 5px;
+}
+
+input[name="Submit"]{
+    background-color:#326789;
+    color: #e9eef2;
+    border:none;
+}
+
+figure{
+    width: 700px;
+    margin: auto;
+}
+
+img{
+    margin-right: 165px;
+    margin-top: 1cm;
+    margin-bottom:1cm ;
+}
+
+img[name="thrd"]{
+    margin: 0;
+    margin-bottom:1cm ;
+}
+
+aside{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 152px;
+ 
+}
+
+
+
+
+
